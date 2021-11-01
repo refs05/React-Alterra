@@ -1,0 +1,149 @@
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navigat {
+    align-self: center;
+}
+
+.section {  
+    position: relative;
+}
+
+.section img {
+    max-width: 2000px;
+    /* max-height: 100%; */
+}
+
+.home {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 355px;
+    height: 355px;
+    background: url(../assets/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+
+.desc-prof button {
+    background-color: #F47522;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border:  none;
+    color: #FFF;
+}
+
+.desc-prof h4 {
+    font-size: 25px;
+}
+
+.desc-prof h1 {
+    font-size: 85px;
+    margin-bottom: 25px;
+}
+
+.desc-prof p {
+    font-size: 35px;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    color: #F47522!important;
+}
+
+.active {
+    color: #F47522!important;
+}
+
+@media screen and (max-width: 991px) {
+    .profile {
+        width: 255px;
+    height: 255px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .profile {
+        max-width: 255px;
+        max-height: 255px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .desc-prof h4 {
+        font-size: 20px;
+    }
+    
+    .desc-prof h1 {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .desc-prof p {
+        font-size: 25px;
+    }
+
+    .desc-prof button {
+        width: 100px;
+        height: 40px;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .home {
+        display: block;
+        justify-content: center;
+        /* flex-direction: row; */
+    }
+
+    .profile {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 20px;
+    }
+
+    .section img {
+        width: 600px;
+        height: 900px;
+    }
+    
+    .desc-prof h4 {
+        font-size: 20px;
+    }
+    
+    .desc-prof h1 {
+        font-size: 30px;
+    }
+    
+    .desc-prof p {
+        font-size: 20px;
+    }
+
+    .desc-prof button {
+        width: 100px;
+        height: 30px;
+        font-size: smaller;
+    }
+}   

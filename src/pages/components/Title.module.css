@@ -1,0 +1,9 @@
+.gradient {
+    background: linear-gradient(to right, blue, red);
+    border-radius: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+

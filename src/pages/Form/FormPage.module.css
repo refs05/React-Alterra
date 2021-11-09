@@ -1,0 +1,84 @@
+.container {
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: 1% auto;
+    padding: 2rem;
+    /* background-color: lightblue; */
+    /* color: rgb(50, 43, 97); */
+}
+
+.container h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 7px;
+}
+
+.formControl label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.formControl input {
+    font-size: 15px;
+    padding: 0.3rem;
+}
+
+.formControl input[type="file"] {
+    width: fit-content;
+}
+.formControl select {
+    font-size: 15px;
+    padding: 0.5rem;
+}
+.error {
+    color: rgb(230, 31, 31);
+    font-size: 13px;
+    margin: 0;
+}
+
+.formControl input[select] {
+    padding: 2rem;
+}
+.actions {
+    margin-top: 15px;
+}
+.actions button {
+    font-size: 16px;
+    padding: 0.5rem 2rem;
+    margin-right: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.actions .submit {
+    border-radius: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(13, 90, 141);
+    background-color:rgb(13, 90, 141);
+}
+
+.actions .reset {
+    border-radius: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(128, 20, 20);
+    background-color: rgb(128, 20, 20);
+}
+
+.actions .submit:hover {
+    background: transparent;
+    color: green;
+}
+
+.actions .reset:hover {
+    background: transparent;
+    color: rgb(128, 20, 20);
+}

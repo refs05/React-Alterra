@@ -1,0 +1,71 @@
+/* .wrapper {
+    position: absolute;
+    left: 0;
+} */
+
+.ContainerOff {
+    position: absolute;
+    left: -240px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-color: aquamarine;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.ContainerOn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-color: aquamarine;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 100px;
+    transition: 1s;
+}
+
+* {
+    text-decoration: none;
+}
+
+.link {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.barsOff {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-image: url(../components/menu.png);
+    background-repeat: no-repeat;
+}
+
+.barsOn {
+    position: fixed;
+    left: 20px;
+    top: 20x;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-image: url(../components/close.png);
+    background-repeat: no-repeat;
+}
+
+
+.link-wrapper {
+    margin-top: 45px;
+}

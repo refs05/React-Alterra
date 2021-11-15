@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+.contact {
+  color: #19345e;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #f47522;
+  padding: 8px 19px;
+  color: white;
+  margin: 0;
+  border: 1px;
+}
+
+button:hover {
+  background-color: #e4640f !important;
+}
+
+.bg-alta {
+  object-fit: cover;
+  width: 480px;
+  height: 250px;
+}
+
+.bg-ungu {
+  background-color: #19345ea6;
+  width: 480px;
+  height: 250px;
+}
+
+.logo {
+  width: 480px;
+  height: 250px;
+  object-fit: contain;
+  top: 0;
+  margin: 0;
+  padding: 5;
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .bg-alta {
+    width: 600px;
+    height: 930px;
+  }
+
+  .logo {
+    background-color: none;
+    width: 350px;
+    height: auto;
+    top: 25em;
+    margin-left: 90px;
+    padding: 5;
+  }
+
+  .bg-ungu {
+    background-color: #19345ea6;
+    height: 930px;
+    width: 600px;
+  }
+}

@@ -1,0 +1,86 @@
+
+.profile {
+  background-image: url("../../img/bg-img.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.content {
+  color: #19345e;
+}
+
+.btn {
+  border-radius: 20px !important;
+  background-color: #f47522 !important;
+  padding: 6px 11px;
+  margin: 0;
+  border: 1px;
+}
+
+button:hover {
+  background-color: #e4640f;
+}
+
+.names {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.desc {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.kanan {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 720px) {
+  .navb-logo {
+    margin-left: 30px;
+  }
+
+  .navb-item {
+    margin-left: 30px;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .names {
+    text-align: left;
+    font-size: 85px;
+    font-weight: 700;
+  }
+
+  .active {
+    color: #e4640f !important;
+  }
+
+  .nav-link:hover {
+    color: #e4640f !important;
+  }
+
+  .kanan {
+    margin-left: 5em;
+  }
+
+  .desc {
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+  .s-p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+  }
+}
